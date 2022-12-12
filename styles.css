@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+.img-bg{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+main{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card-login{
+    width: 37%;
+    height: 77%;
+    background: rgb(249, 249, 249);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login h4{
+    color: #2563ea;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom:3rem;
+}
+
+
+.card-login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 60%;
+}
+
+form input{
+    border:none;
+    border-bottom: 2px solid #2563ea;
+    border-left: 2px solid transparent;
+    width: 80%;
+    outline: #2563ea;
+    transition: all ease 0.3s;
+    height: 2rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #4768af;
+    font-weight: 500;
+}
+
+form input:focus{
+    border-left: 3px solid #2563ea;
+    border-bottom: 3px solid #2563ea;
+}
+
+form input::placeholder{
+    color:#a8c4ff ;
+}
+
+#textEstilized{
+    color: #fff;
+    margin-top: -220px;
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: overline;
+}
+
+form .wrp-btn{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form .wrp-btn button{
+    margin-right: 3rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: #2563ea;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+form .wrp-btn button:hover{
+    height: 2.3rem;
+    width:5.4rem;
+}
+
+
+.cadastroProfissional{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cadastroProfissional h1{
+    color: #fff;
+}
