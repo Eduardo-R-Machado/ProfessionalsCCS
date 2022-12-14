@@ -10,7 +10,76 @@
 <body>
     <img src="assets/bg-app.jpg" class="img-bg" alt="">
     <main class="cadastroProfissional">
-        <h1>Cadastro novo profissional</h1>
+        <div class="wrpText">
+            <h1>Cadastro novo profissional</h1>
+        </div>
+        <div class="box-cadaster">
+            <form class="register" action="">
+                 <div class="form-field">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" name="nome" id="nome" placeholder="|">
+                 </div>
+
+                 <div class="form-field wrp-data-nascimento">
+                    <label for="data-nascimento">Data de Nascimento:</label>
+                    <input type="date" name="data-nascimento" id="data-nascimento" placeholder="Ex: 01/01/2000">
+                </div>
+
+                <div class="form-field wrp-sexo">
+                    <label for="sexo">Sexo:</label>
+                    <select name="sexo" id="sexo">
+                        <option selected value="">Selecione</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Outro">Outros</option>
+                    </select>
+                </div>
+
+                <div class="form-field wrp-cor">
+                    <label for="cor">Cor:</label>
+                    <select name="cor" id="cor">
+                        <option selected value="">Selecione</option>
+                        <option value="Masculino">Branco</option>
+                        <option value="Feminino">Preto</option>
+                        <option value="Outro">Amarelo</option>
+                        <option value="Outro">Pardo</option>
+                        <option value="Outro">Indígena</option>
+                    </select>
+                </div>
+
+                <div class="form-field wrp-formacao">
+                    <label for="formacao">Formação:</label>
+                    <select name="formacao" id="formacao">
+                        <option selected value="">Selecione</option>
+                        <option value="Formado">Formado</option>
+                        <option value="Formando">Formando</option>
+                        <option value="Semformacao">Sem Formação</option>
+                    </select>
+                </div>
+
+                <div class="form-field wrp-area">
+                    <label for="area">Area Técnica:</label>
+                    <select name="area" id="area">
+                        <option selected value="">Selecione</option>
+                        <option value="Devs">Desenvolvimento</option>
+                        <option value="Imprensa">Imprensa</option>
+                        <option value="Socialmedia">Social Media</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Design">Designer</option>
+                        <option value="Audiovisual">AudioVisual</option>
+                        <option value="Secretario">Secretário</option>
+                    </select>
+                </div>
+                <div class="form-field wrp-experiencia">
+                    <label for="experiencia">Tempo de Experiência:</label>
+                    <input type="number" name="experiencia" id="experiencia">
+                </div>
+                <div class="form-field wrp-experiente">
+                    <label for="experiente">Primeiro Emprego:</label>
+                    <input type="checkbox" name="" id="">
+                </div>
+            </form>
+        </div>
     </main>
 </body>
 </html>

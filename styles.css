@@ -11,6 +11,7 @@ body{
 
 .img-bg{
     width: 100%;
+    height: 100vh;
     position: relative;
     z-index: 1;
 }
@@ -29,7 +30,7 @@ main{
 .card-login{
     width: 37%;
     height: 77%;
-    background: rgb(249, 249, 249);
+    background: rgb(248, 250, 250);;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 4%;
@@ -116,11 +117,68 @@ form .wrp-btn button:hover{
 }
 
 
+.box-cadaster{
+    width: 70%;
+    height: 70%;
+    background-color: rgb(248, 250, 250);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .cadastroProfissional{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .cadastroProfissional h1{
     color: #fff;
+}
+
+.cadastroProfissional .wrpText{
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin-left:30%;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.register{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 13px;
+}
+
+.register .form-field{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid  #2563ea;
+    width: 100%;
+    margin-top: 7px;
+    height: 3rem;
+}
+
+.register label{
+    width: 27%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:  #0d41b1;
+}
+
+.form-field input{
+    border: none;
+    color:  #132753;
+}
+
+.form-field input[type=date]{
+    max-width: 12rem;
+}
+
+.form-field input:focus{
+    border: none;
 }
