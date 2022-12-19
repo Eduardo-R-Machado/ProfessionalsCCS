@@ -157,17 +157,19 @@ form .wrp-btn button:hover{
     display: flex;
     align-items: center;
     justify-content: left;
-    border-bottom: 1px solid  #2563ea;
+    border-bottom: 2px solid  #2563ea;
     width: 100%;
     margin-top: 7px;
     height: 3rem;
 }
 
 .register label{
-    width: 27%;
+    width: auto;
     font-size: 1.5rem;
     font-weight: 500;
     color:  #0d41b1;
+    margin-right: 1rem;
+    white-space: nowrap;
 }
 
 .form-field input{
@@ -181,4 +183,28 @@ form .wrp-btn button:hover{
 
 .form-field input:focus{
     border: none;
+}
+
+.form-field select{
+    border: none;
+    font-size: 1.3rem;
+    background-color: transparent;
+    color:#132753;
+    font-weight: 500;
+}
+
+.box-cadaster .wrp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.box-cadaster .wrp-btn button{
+    width: 14rem;
+}
+
+.box-cadaster .wrp-btn button:hover{
+    width: 15rem;
+    filter: brightness(70%);
 }
