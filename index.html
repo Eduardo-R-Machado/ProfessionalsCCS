@@ -15,16 +15,21 @@
             <h4>Login</h4>
 
             <form action="">
-                <input placeholder="email de login" type="text">
+                <input id="emailLogin" placeholder="email de login" type="text">
 
-                <input placeholder="senha"  type="password">
+                <input id="passwordLogin" placeholder="senha"  type="password">
 
                 <div class="wrp-btn">
-                    <button>Entrar</button>
+                    <button type="submit" onclick="login()">Entrar</button>
                 </div>
             </form>
         </section>
         <h1 id="textEstilized">Cadastro Profissionais CCS</h1>
     </main>
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+<script src="firebase-init.js"></script>
+<script src="index.js"></script>
 </html>
